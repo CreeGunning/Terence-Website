@@ -1,0 +1,236 @@
+
+#navbar{
+	height: 125px;
+	width: 100%;
+    padding: 15px 0;
+	background: rgb(51,254,255);
+	background: linear-gradient(90deg, rgba(51,254,255,1) 0%, rgba(69,29,253,1) 32%, rgba(252,69,242,1) 100%);
+	border-bottom: 3px solid #ff1cef;
+}
+
+#logo {
+  display: block;
+  margin-left: 30%;
+  width: 8.5%;
+  float: left;
+  border-radius: 50%;
+}
+
+.main-menu {
+    text-align: center;
+	width: 500px;
+	float: left;
+	margin-top: 85px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    }
+
+
+
+h1 {
+	font-family: "Aaargh",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+	text-align: center;
+}
+
+.crt {
+	position: relative;
+    max-width: 300px;
+    padding: 0 2%;
+    margin: 0 auto;
+	padding: 10px 0;
+    border-top: 2px solid #f58989;
+    border-bottom: 2px solid #f58989;
+    color: #252525;
+	font-family: "Aaargh",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+}
+
+.column1 {
+	width: 30%;
+	height: 620px;
+	float: left;
+	margin-left: 2%;
+}
+
+.column2 {
+	width: 30%;
+	height: 620px;
+	float: left;
+	margin-left: 2%;
+}
+
+.column3 {
+	width: 30%;
+	height: 620px;
+	float: left;
+	margin-left: 2%;
+}
+
+.stf {
+	position: relative;
+    max-width: 400px;
+    padding: 0 2%;
+    margin: 0 auto;
+	padding: 10px 0;
+    border-top: 2px solid  #55fedc;
+    border-bottom: 2px solid  #55fedc;
+    color: #252525;
+	font-family: "Aaargh",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	
+}
+
+.staff {
+	color: white;
+	padding: 10px 0;
+	font-size: 18px;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.eqp {
+	position: relative;
+    max-width: 400px;
+    padding: 0 2%;
+	margin: 0 auto;
+	padding: 10px 0;
+    border-top: 2px solid  #55fedc;
+    border-bottom: 2px solid  #55fedc;
+    color: #252525;
+	font-family: "Aaargh",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	
+}
+
+.equipment {
+	color: white;
+	padding: 10px 0;
+	font-size: 18px;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.hlt {
+	position: relative;
+    max-width: 400px;
+    padding: 0 2%;
+    margin: 0 auto;
+	padding: 10px 0;
+    border-top: 2px solid  #55fedc;
+    border-bottom: 2px solid  #55fedc;
+    color: #252525;
+	font-family: "Aaargh",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+}
+
+.health {
+	color: white;
+	padding: 10px 0;
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 450px;
+}
+
+
+.About {
+	background: rgb(82,141,227);
+	background: linear-gradient(135deg, rgba(82,141,227,1) 0%, rgba(78,187,202,1) 100%);
+	width: 100%;
+	height: 650px;
+	position: relative;
+    margin: 0 auto;
+	padding: 20px 0 60px;
+	border-bottom: 3px solid white;
+}
+
+
+.footer{
+	height: 200px;
+	width: 100%;
+    padding: 15px 0;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.address {
+	margin-top: 50px;
+	float: left;
+	margin-left: 2%;
+}
+
+.certs {
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.reci {
+  margin-top: 20px;
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.safe {
+  margin-left: 10%;
+  margin-top: 45px;
+  display: block;
+  width: 40%;
+  float: left;
+}
+
+
+li {
+	float: left;
+	list-style-type: none;
+	margin-left: 5%;
+}
+
+a {
+	font-family: "Advent Pro", Times, serif;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+#navbar{
+	height: 150px;
+}
+
+#logo {
+  margin-left: none;
+  width: 8.5%;
+  margin: auto 0;
+  border-radius: 50%;
+}
+
+.About {
+	height: 1420px;
+}
+}
